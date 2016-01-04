@@ -1,5 +1,6 @@
 /* jshint esnext: true */
 
+/* Reducer Function */
 const todo = (state, action) => {
   switch (action.type) {
     case 'ADD_TODO':
